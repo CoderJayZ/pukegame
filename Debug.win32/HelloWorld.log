@@ -1,0 +1,86 @@
+﻿  AppDelegate.cpp
+  lua_debugger.c
+  RuntimeLuaImpl.cpp
+  main.cpp
+  SimulatorWin.cpp
+e:\projects\cocos\studio\helloworld\frameworks\runtime-src\classes\appdelegate.cpp(57): warning C4305: “参数”: 从“double”到“float”截断
+e:\projects\cocos\studio\helloworld\frameworks\runtime-src\proj.win32\simulatorwin.cpp(397): warning C4305: “参数”: 从“double”到“float”截断
+e:\projects\cocos\studio\helloworld\frameworks\runtime-src\proj.win32\simulatorwin.cpp(731): warning C4018: “<”: 有符号/无符号不匹配
+  stdafx.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(E:\projects\cocos\studio\HelloWorld\frameworks\runtime-src\proj.win32\Debug.win32\HelloWorld.exe) does not match the Linker's OutputFile property value (E:\projects\cocos\studio\HelloWorld\simulator\win32\HelloWorld.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  复制了 60 个文件
+     正在创建库 E:\projects\cocos\studio\HelloWorld\frameworks\runtime-src\proj.win32\Debug.win32\HelloWorld.lib 和对象 E:\projects\cocos\studio\HelloWorld\frameworks\runtime-src\proj.win32\Debug.win32\HelloWorld.exp
+  HelloWorld.vcxproj -> E:\projects\cocos\studio\HelloWorld\frameworks\runtime-src\proj.win32\Debug.win32\HelloWorld.exe
+  复制了 16 个文件
+  复制了 1 个文件
+  E:\projects\cocos\studio\HelloWorld\res\HelloWorld.png -> E:\projects\cocos\studio\HelloWorld\simulator\win32\res\HelloWorld.png
+  E:\projects\cocos\studio\HelloWorld\res\MainScene.csb -> E:\projects\cocos\studio\HelloWorld\simulator\win32\res\MainScene.csb
+  复制了 2 个文件
+  E:\projects\cocos\studio\HelloWorld\src\config.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\config.lua
+  E:\projects\cocos\studio\HelloWorld\src\main.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\main.lua
+  E:\projects\cocos\studio\HelloWorld\src\app\MyApp.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\app\MyApp.lua
+  E:\projects\cocos\studio\HelloWorld\src\app\views\MainScene.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\app\views\MainScene.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\init.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\init.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\3d\3dConstants.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\3d\3dConstants.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocos2d\bitExtend.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocos2d\bitExtend.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocos2d\Cocos2d.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocos2d\Cocos2d.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocos2d\Cocos2dConstants.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocos2d\Cocos2dConstants.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocos2d\deprecated.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocos2d\deprecated.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocos2d\DeprecatedCocos2dClass.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocos2d\DeprecatedCocos2dClass.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocos2d\DeprecatedCocos2dEnum.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocos2d\DeprecatedCocos2dEnum.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocos2d\DeprecatedCocos2dFunc.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocos2d\DeprecatedCocos2dFunc.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocos2d\DeprecatedOpenglEnum.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocos2d\DeprecatedOpenglEnum.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocos2d\DrawPrimitives.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocos2d\DrawPrimitives.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocos2d\functions.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocos2d\functions.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocos2d\json.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocos2d\json.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocos2d\luaj.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocos2d\luaj.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocos2d\luaoc.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocos2d\luaoc.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocos2d\Opengl.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocos2d\Opengl.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocos2d\OpenglConstants.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocos2d\OpenglConstants.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocosbuilder\CCBReaderLoad.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocosbuilder\CCBReaderLoad.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocosbuilder\DeprecatedCocosBuilderClass.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocosbuilder\DeprecatedCocosBuilderClass.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocosdenshion\AudioEngine.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocosdenshion\AudioEngine.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocosdenshion\DeprecatedCocosDenshionClass.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocosdenshion\DeprecatedCocosDenshionClass.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocosdenshion\DeprecatedCocosDenshionFunc.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocosdenshion\DeprecatedCocosDenshionFunc.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocostudio\CocoStudio.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocostudio\CocoStudio.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocostudio\DeprecatedCocoStudioClass.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocostudio\DeprecatedCocoStudioClass.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocostudio\DeprecatedCocoStudioFunc.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocostudio\DeprecatedCocoStudioFunc.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\cocostudio\StudioConstants.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\cocostudio\StudioConstants.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\controller\ControllerConstants.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\controller\ControllerConstants.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\extension\DeprecatedExtensionClass.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\extension\DeprecatedExtensionClass.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\extension\DeprecatedExtensionEnum.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\extension\DeprecatedExtensionEnum.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\extension\DeprecatedExtensionFunc.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\extension\DeprecatedExtensionFunc.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\extension\ExtensionConstants.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\extension\ExtensionConstants.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\framework\audio.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\framework\audio.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\framework\device.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\framework\device.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\framework\display.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\framework\display.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\framework\init.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\framework\init.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\framework\package_support.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\framework\package_support.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\framework\transition.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\framework\transition.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\framework\components\event.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\framework\components\event.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\framework\extends\LayerEx.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\framework\extends\LayerEx.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\framework\extends\MenuEx.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\framework\extends\MenuEx.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\framework\extends\NodeEx.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\framework\extends\NodeEx.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\framework\extends\SpriteEx.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\framework\extends\SpriteEx.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\framework\extends\UICheckBox.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\framework\extends\UICheckBox.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\framework\extends\UIEditBox.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\framework\extends\UIEditBox.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\framework\extends\UIListView.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\framework\extends\UIListView.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\framework\extends\UIPageView.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\framework\extends\UIPageView.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\framework\extends\UIScrollView.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\framework\extends\UIScrollView.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\framework\extends\UISlider.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\framework\extends\UISlider.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\framework\extends\UITextField.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\framework\extends\UITextField.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\framework\extends\UIWidget.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\framework\extends\UIWidget.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\network\DeprecatedNetworkClass.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\network\DeprecatedNetworkClass.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\network\DeprecatedNetworkEnum.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\network\DeprecatedNetworkEnum.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\network\DeprecatedNetworkFunc.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\network\DeprecatedNetworkFunc.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\network\NetworkConstants.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\network\NetworkConstants.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\physics3d\physics3d-constants.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\physics3d\physics3d-constants.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\spine\SpineConstants.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\spine\SpineConstants.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\ui\DeprecatedUIEnum.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\ui\DeprecatedUIEnum.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\ui\DeprecatedUIFunc.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\ui\DeprecatedUIFunc.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\ui\experimentalUIConstants.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\ui\experimentalUIConstants.lua
+  E:\projects\cocos\studio\HelloWorld\src\cocos\ui\GuiConstants.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\cocos\ui\GuiConstants.lua
+  E:\projects\cocos\studio\HelloWorld\src\packages\mvc\AppBase.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\packages\mvc\AppBase.lua
+  E:\projects\cocos\studio\HelloWorld\src\packages\mvc\init.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\packages\mvc\init.lua
+  E:\projects\cocos\studio\HelloWorld\src\packages\mvc\ViewBase.lua -> E:\projects\cocos\studio\HelloWorld\simulator\win32\src\packages\mvc\ViewBase.lua
+  复制了 67 个文件
